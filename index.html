@@ -6,38 +6,51 @@
     <meta name="It's me Zache!" content="What? Gimme 5!">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>About me</title>
   </head>
   <body>
     <div class="container">
-      <div class="card profile-info">
-        <img src="images/me.jpg" alt="Zache" class="pic-style">
-        <h1>Zache ✋😜</h1>
-        <p>I love games and slack! 🏖 <br>
-          But now I'm learning to code 👨🏽‍💻</p>
-        <a href="#" id="btn-primary">Follow</a>
-      </div>
-      <div class="card follow">
-        <h2>Follow Me</h2>
-        <ul class="list-inline">
-          <li>
-            <a href="#" target="_blank" class="btn-social">
-              <i class="fab fa-facebook-square"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#" target="_blank" class="btn-social">
-              <i class="fab fa-github-square"></i>
-            </a>
-          </li>
-                <li>
-            <a href="#" target="_blank" class="btn-social">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-          </li>
-        </ul>
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-6">
+          <div class="border rounded m-3">
+            <div class="text-center p-3">
+              <img src="images/me.jpg" alt="Zache" class="avatar">
+            </div>
+            <div class="text-center">
+              <h1>Zache ✋😜</h1>
+              <p>I love games and slack! 🏖 <br>
+                But now I'm learning to code 👨🏽‍💻</p>
+            </div>
+            <div class="text-center border-bottom pb-3">
+              <a href="#" class="btn btn-primary">Follow</a>
+            </div>
+            <h2 class="text-center pt-3">Follow Me</h2>
+            <ul class="d-flex justify-content-around list-unstyled px-5">
+              <li>
+                <a href="#" target="_blank" class="btn-social">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="btn-social">
+                  <i class="fab fa-github-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="btn-social">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
+    <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
   </body>
 </html>
