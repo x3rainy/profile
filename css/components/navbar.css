@@ -1,0 +1,50 @@
+.navbar {
+  background: rgb(174,238,193);
+  background: radial-gradient(circle, rgba(174,238,193,1) 0%, rgba(161,187,218,1) 82%);
+}
+
+.profile-nav {
+  width: 220px;
+  height: 26px;
+}
+
+.option-nav {
+  cursor: pointer;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.nav-links:hover {
+  text-decoration: none;
+  color: #444;
+}
+
+.count {
+  color: slategrey;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 20px;
+  height: 3px;
+  background-color: #333;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-4px, 4px);
+  transform: rotate(-45deg) translate(-4px, 4px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-4px, -4.5px);
+  transform: rotate(45deg) translate(-4px, -4.5px);
+}
